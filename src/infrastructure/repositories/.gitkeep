@@ -1,6 +1,0 @@
-# ══════════════════════════════════════
-# Infrastructure Layer — Repositories
-# ══════════════════════════════════════
-# Implementaciones concretas de los repositorios
-# definidos en domain/repositories/.
-# Aquí se usa pg/Pool para ejecutar queries SQL.

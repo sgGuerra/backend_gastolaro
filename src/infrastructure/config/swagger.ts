@@ -12,11 +12,11 @@ const options: swaggerJSDoc.Options = {
     },
     servers: [
       {
-        url: 'http://localhost:3001/api/v1',
+        url: 'http://localhost:3001',
         description: 'Local server',
       },
       {
-        url: 'https://tu-api-en-produccion.com/api/v1',
+        url: 'https://tu-api-en-produccion.com',
         description: 'Production server',
       },
     ],

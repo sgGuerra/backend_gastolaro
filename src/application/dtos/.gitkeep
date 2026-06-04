@@ -1,5 +1,0 @@
-# ══════════════════════════════════════
-# Application Layer — DTOs
-# ══════════════════════════════════════
-# Data Transfer Objects: schemas Zod + tipos derivados
-# para validar entrada/salida de cada use case.

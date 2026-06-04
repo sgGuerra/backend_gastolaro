@@ -1,4 +1,0 @@
-# ══════════════════════════════════════
-# Infrastructure Layer — Database
-# ══════════════════════════════════════
-# Conexión a PostgreSQL (Supabase) con pg Pool.
