@@ -72,6 +72,54 @@
 
 ---
 
+## 📖 Documentación y Endpoints (Swagger)
+
+GastoClaro incluye una documentación interactiva autogenerada con Swagger UI para probar los endpoints fácilmente.
+
+👉 **Acceso a Swagger UI (Local):** [http://localhost:3001/api/v1/docs](http://localhost:3001/api/v1/docs)
+
+### Listado de Endpoints
+
+A continuación se resumen todos los endpoints expuestos en la API. Ten en cuenta que, excepto los de autenticación, todos requieren un token JWT en las cabeceras (`Authorization: Bearer <token>`).
+
+**Autenticación (`/api/v1/auth`)**
+- `POST /register` — Registra un nuevo usuario.
+- `POST /login` — Inicia sesión y retorna un token JWT.
+
+**Gastos (`/api/v1/expenses`)**
+- `GET /` — Lista todos los gastos (Paginado + Filtros por categoría y fechas).
+- `GET /:id` — Obtiene el detalle de un gasto específico.
+- `POST /` — Crea un nuevo gasto.
+- `PUT /:id` — Actualiza un gasto.
+- `DELETE /:id` — Elimina un gasto.
+
+**Metas de Ahorro (`/api/v1/goals`)**
+- `GET /` — Lista todas las metas (Paginado + Filtros por estado y fechas).
+- `GET /:id` — Obtiene el detalle de una meta.
+- `POST /` — Crea una nueva meta.
+- `PUT /:id` — Actualiza una meta.
+- `DELETE /:id` — Elimina una meta.
+
+**Ahorros (`/api/v1/savings`)**
+- `GET /` — Lista todos los registros de ahorro (Paginado + Filtros).
+- `GET /:id` — Detalle de un ahorro.
+- `POST /` — Crea un registro de ahorro.
+- `PUT /:id` — Actualiza un ahorro.
+- `DELETE /:id` — Elimina un ahorro.
+
+**Deudas (`/api/v1/debts`)**
+- `GET /` — Lista todas las deudas (Paginado + Filtros).
+- `GET /:id` — Detalle de una deuda.
+- `POST /` — Crea una deuda.
+- `PUT /:id` — Actualiza una deuda.
+- `DELETE /:id` — Elimina una deuda.
+
+**Usuarios / Administrador (`/api/v1/users`)** *(Requieren rol de 'admin')*
+- `GET /` — Lista todos los usuarios del sistema.
+- `DELETE /:id` — Elimina un usuario por completo de la base de datos.
+
+---
+
 ## 🌐 Enlace de Despliegue (Deploy)
 
 🔗 **API en Producción (Render / Railway):** `[Colocar aquí el link al hacer deploy]`
