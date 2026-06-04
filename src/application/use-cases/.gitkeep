@@ -1,0 +1,5 @@
+# ══════════════════════════════════════
+# Application Layer — Use Cases
+# ══════════════════════════════════════
+# Lógica de negocio orquestada. Cada use case es una clase
+# con un solo método público execute().

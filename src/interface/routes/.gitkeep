@@ -1,0 +1,5 @@
+# ══════════════════════════════════════
+# Interface Layer — Routes
+# ══════════════════════════════════════
+# Definición de rutas Express + asignación de
+# middlewares (authenticate, authorize, validateBody).

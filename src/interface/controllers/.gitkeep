@@ -1,0 +1,6 @@
+# ══════════════════════════════════════
+# Interface Layer — Controllers
+# ══════════════════════════════════════
+# Reciben req/res de Express, llaman al use-case
+# correspondiente y retornan la respuesta HTTP.
+# NO contienen lógica de negocio.

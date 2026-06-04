@@ -1,0 +1,5 @@
+# ══════════════════════════════════════
+# Domain Layer — Entities
+# ══════════════════════════════════════
+# Tipos e interfaces de negocio puras.
+# No dependen de ningún framework ni librería externa.
