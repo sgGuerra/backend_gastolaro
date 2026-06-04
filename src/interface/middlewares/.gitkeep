@@ -1,0 +1,4 @@
+# ══════════════════════════════════════
+# Interface Layer — Middlewares
+# ══════════════════════════════════════
+# authenticate, authorize, validateBody, errorHandler
