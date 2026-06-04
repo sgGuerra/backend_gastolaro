@@ -3,6 +3,7 @@ node_modules/
 
 # Build output
 dist/
+.abacusai
 
 # Environment variables (NUNCA commitear el .env real)
 .env
