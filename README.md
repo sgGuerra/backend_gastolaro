@@ -122,7 +122,7 @@ A continuación se resumen todos los endpoints expuestos en la API. Ten en cuent
 
 ## 🌐 Enlace de Despliegue (Deploy)
 
-🔗 **API en Producción (Render / Railway):** `[Colocar aquí el link al hacer deploy]`
+🔗 **API en Producción (Render / Railway):** [https://backend-gastolaro.onrender.com](https://backend-gastolaro.onrender.com)
 
 ---
 
